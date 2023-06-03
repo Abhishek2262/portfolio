@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+h1,h2,h3,body,html{
+  margin: 0px;
+  
+}
 
 .App-logo {
   height: 40vmin;

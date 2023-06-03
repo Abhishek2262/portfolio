@@ -1,0 +1,108 @@
+.abtme{
+    background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
+    height: 100vh;
+    width: 100vw;
+    color: whitesmoke;
+    
+    display: flex;
+    flex-direction: row;
+}
+.hr1, .hr2{
+  background-color:  rgb(255, 180, 0);
+  
+  height: 0.025rem;
+}
+
+.abt1{
+  
+    text-align: center;
+    
+}
+.hr3{
+    background-color: rgb(255, 180, 0);
+    width: 90vw;
+    margin-top: 2rem;
+    height: 0.025rem;
+   
+    
+}
+.abth1{
+    background: linear-gradient(to right, #ffffff 50%,  rgb(255, 180, 0) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:  4rem;
+    font-weight: 900;
+    font-size: 3.5rem;
+   margin-left: 6rem;
+}
+.hello{
+   
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: whitesmoke;
+    align-items: center; 
+    width: 100%;
+}
+.abt2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align: start;
+    width: 57%;
+    height: 28rem;
+    
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: rem;
+}
+.profpic{
+    background-color: rgba(255, 255, 255, 0.66);
+    width: 30rem;
+    height: 30rem;
+}
+.cont1{
+    width: 81rem;
+    display: flex;
+    margin-top: 2rem;
+}
+.inside{
+    background-color: black;
+}
+.int2{
+    margin: 21px;
+    padding: 6px;
+    width: 21rem;
+}
+.p1{
+    font-family: "Macha Medium" ;
+    font-size: 18px;
+    font-weight: bold;
+    height: 10rem;
+    width: 23rem;
+    padding-top: 0px;
+   
+}
+.cvbtn{
+    display: flex;
+    flex-direction: row;
+    padding-top: 11px;
+    padding-left: 23px;
+    gap: 4px;
+    width: 15rem;
+    height: 3rem;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 2rem;
+    background-color:  rgb(255, 180, 0);
+}
+.cvbtn:hover{
+    background-color: rgb(85,85,85);
+}
+.icon{
+   
+    font-size: 22px;
+}

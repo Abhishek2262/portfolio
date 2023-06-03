@@ -1,6 +1,6 @@
 .abtme{
     background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     color: whitesmoke;
     
@@ -40,7 +40,7 @@
    
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100rem;
     color: whitesmoke;
     align-items: center; 
     width: 100%;
@@ -105,4 +105,70 @@
 .icon{
    
     font-size: 22px;
+}
+.resumecntr{
+   display: flex;
+   flex-direction: row;
+   width: 87rem; 
+   height: 70rem;
+}
+.expcntr{
+    width: 50rem;
+    width: 50rem;
+    padding-left: 0.5rem;
+    height: 30rem;
+
+}
+.educntr{
+    
+    height: 30rem;
+    
+   
+}
+.exph{
+    margin-bottom: 4rem;
+}
+.eduh{
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+
+.dot{
+    width:0.5rem;
+    height: 0.5rem;
+    border: 1px solid orange;
+    border-radius: 3rem;
+    background-color: black;
+}
+.expl{
+    width: 0.02rem;
+    height: 8rem;
+    background-color: orange;
+    margin-left: 0.25rem;
+    
+}
+.expy{
+    display: flex;
+    height: 1rem;
+    padding-bottom: 5px;
+}
+.expyear{
+   max-height: 1.3rem;
+   margin-left: 1rem;
+  
+}
+.gigcntr{
+    display: flex;
+    width: 3rem;
+    
+    width: 20rem;
+}
+.gig1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.cmpnyt{
+    margin-top: 1rem;
+    font-size: large;
 }

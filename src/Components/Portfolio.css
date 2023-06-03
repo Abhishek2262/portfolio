@@ -1,0 +1,52 @@
+.bgportfolio{
+    background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
+    height: 100vh;
+    color: whitesmoke;
+    font-family: "Macha Medium" ;
+}
+.sp1{
+    color:  rgb(255, 180, 0);
+}
+.portfoliocntr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50rem;
+}
+.heading-portfolio{
+    margin-top: 4rem;
+    font-size: 4rem;
+    
+}
+.pitch-line{
+    margin-left: 0.5rem;
+}
+.portfolioline{
+    background-color: orange;
+    width: 2rem;
+    height: 0.01rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.box-cntr{
+    margin-top: 1rem;
+    width: 80rem;
+    height: 30rem;
+    display: flex;
+  
+}
+.box-1{
+    background-color: rgb(188, 195, 155);
+    margin-top: 2.5rem;
+    margin-left: 1.2rem;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading1{
+ font-size: 2rem;
+ padding: 3rem;
+}

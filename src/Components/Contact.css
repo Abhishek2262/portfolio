@@ -1,0 +1,103 @@
+.bg-contact{
+    background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
+    height: 100vh;
+    color: whitesmoke;
+}
+.contact-cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contact-heading{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.s1{
+    color: orange;
+}
+.linecnt{
+    background-color: orange;
+    height: 0.1rem;
+    width: 3rem;
+    margin-bottom: 5px;
+}
+.linecnt2{
+    background-color: orange;
+    height: 0.1rem;
+    width: 3rem;
+    margin-left: 30.4rem;
+    margin-top: 5px;
+}
+.contact-detail-cntr{
+    width: 75rem;
+    height: 31rem;
+
+    padding: 2rem;
+    display: flex;
+
+}
+.info-dest{
+    width: 17rem;
+    height: 31rem;
+   
+}
+.input-desk{
+    width: 70%;
+    height: 31rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+}
+.input-cntr{
+    
+    display: flex;
+    flex-wrap: wrap;
+   height: 20rem;
+}
+.input-cntr1{
+    display: flex;
+    margin-top: 2rem;
+   
+    gap: 4rem;
+}
+.name-cnt{
+    border-radius: 1rem;
+    background:  rgb(33, 33, 34) ;
+    width: 23rem;
+    border: 0;
+    height: 3rem;
+}
+.email-cnt{
+    border-radius: 1rem;
+    width: 22.5rem;
+    height: 3rem;
+    border: 0;
+    background:  rgb(33, 33, 34) ;
+}
+.messg-cnt{
+    height: 8rem;
+    width: 50rem;
+    background:  rgb(33, 33, 34) ;
+    border: 0;
+    border-radius: 1rem;
+}
+.btn-cnt{
+    float: left;
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    border: 0;
+    color: whitesmoke;
+    border-radius: 2rem;
+    background-color:  rgb(255, 180, 0);
+}
+.phn-cnt, .email-cnt1, .address-cnt, .social-cnt{
+    margin: 1rem;
+}
+.icon-cnt{
+    color: orange;
+}

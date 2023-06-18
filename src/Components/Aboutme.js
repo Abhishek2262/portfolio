@@ -171,7 +171,8 @@
                             <div className="skillcntr">
                                 <h2>SKILLS</h2>
                                 <div className="skills-meter">
-                                    <div className="skill-html">
+                                   <div className="cntr1">
+                                   <div className="skill-html">
                                         <span className=""><div className="skill-h">HTML</div></span>
                                         <div className="item-progress"></div>
                                        
@@ -183,8 +184,8 @@
                                         <div className="item-line"></div>
                                     </div>
                                     <div className="skill-html2">
-                                        <span className=""><div className="skill-h">HTML</div></span>
-                                        <div className="item-progress"></div>
+                                        <span className=""><div className="skill-h">CSS</div></span>
+                                        <div className="item-progress-css"></div>
                                        
                                         
                                            <TfiComment className="percent-icon"/>
@@ -194,18 +195,20 @@
                                         <div className="item-line"></div>
                                     </div>
                                      <div className="skill-html3">
-                                        <span className=""><div className="skill-h">HTML</div></span>
-                                        <div className="item-progress"></div>
+                                        <span className=""><div className="skill-h">JAVA SCRIPT</div></span>
+                                        <div className="item-progress-javascript"></div>
                                        
                                         
-                                           <TfiComment className="percent-icon"/>
-                                            <span className="percentage">80%</span>
+                                           <TfiComment className="percent-icon-javascript"/>
+                                            <span className="percentage">60%</span>
                                        
                                       
                                         <div className="item-line"></div>
                                     </div>
+                                   </div>
+                                    <div className="cntr2">
                                     <div className="skill-html4">
-                                        <span className=""><div className="skill-h">HTML</div></span>
+                                        <span className=""><div className="skill-h">React</div></span>
                                         <div className="item-progress"></div>
                                        
                                         
@@ -215,8 +218,33 @@
                                       
                                         <div className="item-line"></div>
                                     </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">TailWind CSS</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">SEO</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div className="cntr3">
                                     <div className="skill-html4">
-                                        <span className=""><div className="skill-h">HTML</div></span>
+                                        <span className=""><div className="skill-h">Digital Marketing</div></span>
                                         <div className="item-progress"></div>
                                        
                                         
@@ -226,6 +254,104 @@
                                       
                                         <div className="item-line"></div>
                                     </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">Operating System</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">C++</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div className="cntr4">
+                                    <div className="skill-html4">
+                                        <span className=""><div className="skill-h">Node JS</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">Next JS</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">Data Structure & Algo</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div className="cntr5">
+                                    <div className="skill-html4">
+                                        <span className=""><div className="skill-h">Database Modeling</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">Backlink creation</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    <div className="skill-html5">
+                                        <span className=""><div className="skill-h">Python</div></span>
+                                        <div className="item-progress"></div>
+                                       
+                                        
+                                           <TfiComment className="percent-icon"/>
+                                            <span className="percentage">80%</span>
+                                       
+                                      
+                                        <div className="item-line"></div>
+                                    </div>
+                                    
+                                    </div>
+                                    
+                                    
 
 
                                 </div>

@@ -1,7 +1,7 @@
 .bgportfolio{
     background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
     height: 100vh;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     font-family: "Macha Medium" ;
 }
 .sp1{
@@ -14,6 +14,10 @@
     min-height: 50rem;
 }
 .heading-portfolio{
+    background: linear-gradient(to right, #ffffff 50%,  rgb(255, 180, 0)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 4rem;
     font-size: 4rem;
     
@@ -36,7 +40,7 @@
   
 }
 .box-1{
-    background-color: rgb(188, 195, 155);
+    background-color: rgb(246, 148, 148);
     margin-top: 2.5rem;
     margin-left: 1.2rem;
     width: 25rem;

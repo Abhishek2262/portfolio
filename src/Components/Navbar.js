@@ -17,7 +17,8 @@ export default function Navbar (){
             width:4,
             borderRadius:40
             
-        });
+            
+        }); 
       }else{
         setButtonDimensions({
             height: 4,

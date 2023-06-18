@@ -6,7 +6,7 @@ const Portfolio=()=>{
         <>
         <div className="bgportfolio">
            <div className="portfoliocntr">
-               <h1 className="heading-portfolio">  My <span className="sp1">Portfolio</span></h1>
+               <h1 className="heading-portfolio">  My Portfolio</h1>
                 <div style={{display:"flex",  paddingTop:"2rem"}}>
                       <div className="portfolioline"/>
                          <div className="pitch-line">A FEW RECENT PROJECTS BUILD AND CODE PROJECT. WANT TO SEE MORE EMAIL ME. </div>

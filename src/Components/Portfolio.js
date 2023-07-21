@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "./Navbar";
 import "./Portfolio.css";
+
 
 const Portfolio=()=>{
     return(
         <>
         <div className="bgportfolio">
+          <div className="nav-b">  <Navbar/></div>
            <div className="portfoliocntr">
+            
                <h1 className="heading-portfolio">  My Portfolio</h1>
                 <div style={{display:"flex",  paddingTop:"2rem"}}>
                       <div className="portfolioline"/>

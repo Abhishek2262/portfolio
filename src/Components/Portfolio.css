@@ -1,8 +1,10 @@
 .bgportfolio{
     background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
     height: 100vh;
+    width: 100vw;
     color: rgb(255, 255, 255);
     font-family: "Macha Medium" ;
+    position: fixed;
 }
 .sp1{
     color:  rgb(255, 180, 0);
@@ -11,6 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+  
     min-height: 50rem;
 }
 .heading-portfolio{
@@ -33,7 +37,7 @@
     margin-left: 0.5rem;
 }
 .box-cntr{
-    margin-top: 1rem;
+    margin-top: 4rem;
     width: 80rem;
     height: 30rem;
     display: flex;
@@ -53,4 +57,7 @@
 .heading1{
  font-size: 2rem;
  padding: 3rem;
+}
+.nav-b{
+    position: fixed;
 }

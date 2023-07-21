@@ -4,6 +4,7 @@
     import {FaCalendarAlt} from "react-icons/fa"
     import {MdDownload}  from "react-icons/md";
     import{TfiComment} from "react-icons/tfi";
+    import gp2 from "./photos/gp2.png";
    
 
 
@@ -23,7 +24,7 @@
                     
                         </div>
                             <div className="cont1">
-                                    <div className="profpic"><div className="inside">HI</div></div>
+                                    <div className="profpic"><div className="inside"><img className="abt-img" src={gp2} alt="Abhi"/></div></div>
                                     <div className="abt2">
                                     <div className="p1">
                                     <div className="int2">Name : Abhishek Pandey </div>

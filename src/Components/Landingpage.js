@@ -1,6 +1,6 @@
 import React from "react";
 import "./Landingpage.css";
-import gp1 from "./photos/gp1.png";
+import gp2 from "./photos/gp2.png";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 import MovingText from 'react-moving-text';
@@ -19,7 +19,7 @@ export default function LandingPage (){
       <div className="Landingpg">
       
               <div><Navbar/></div>
-             <img  className="img1" src={gp1} alt="ABhishek"/>
+             <img  className="img1" src={gp2} alt="ABhishek"/>
          <div className="l1"> <h3>HI THERE !</h3>
                  <div>
                   <MovingText

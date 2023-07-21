@@ -5,12 +5,14 @@ import{BsPersonFill} from"react-icons/bs";
 import {BsSend} from"react-icons/bs";
 import {ImLocation2} from "react-icons/im";
 import {FaFacebook} from "react-icons/fa";
+import Navbar from "./Navbar";
 import "./Contact.css";
 
 const Contact=()=>{
     return(
         <>
             <div className="bg-contact">
+              <div className="nav-cnt1">  <Navbar/></div>
                 <div className="contact-cntr">
                     <h1 className="contact-heading">GET <span className="s1">IN TOUCH</span></h1>
                     <div className="subhead">

@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 
 
 
+
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Aboutme" element ={<Aboutme/>} />
         <Route path="/Portfolio" element ={<Portfolio/>}/>
         <Route path='/Contact' element={<Contact/>}/>
+   
       </Routes>
     </BrowserRouter>
     

@@ -15,16 +15,16 @@ import { useNavigate } from "react-router-dom";
 export default function Navbar (){
   const navigate = useNavigate();
   const goToHome=()=>{
-    navigate("/Home")
+    navigate("/")
   }
   const goToAbout=()=>{
-    navigate("/Aboutme")
+    navigate("/aboutme")
   }
   const goToPortfolio=()=>{
-    navigate("/Portfolio")
+    navigate("/portfolio")
   }
   const goToContact=()=>{
-    navigate("/Contact")
+    navigate("/contact")
   }
     const [buttonDimensions,setButtonDimensions] = useState({height:4, width:4, borderRadius:50  , icon:<AiOutlineMenu/> });
     const [isToggled, setIsToggled] = useState(false);

@@ -72,25 +72,65 @@
 .name-cnt{
     border-radius: 1rem;
     background:  rgb(33, 33, 34) ;
+    /* background:  rgb(232, 232, 236) ; */
     width: 23rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
     border: 0;
     height: 3rem;
+}
+
+.input-box{
+    margin-left: 0.5rem;
+    color: white;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+
+.icon-cnt-social{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    gap: 1rem;
+    font-size: large;
+}
+.icon-f:hover, .icon-i:hover, .icon-t:hover, .icon-l:hover{
+    color: white;
+}
+.icon-f, .icon-i, .icon-t,.icon-l{
+    color:orange;
 }
 .email-cnt{
     border-radius: 1rem;
     width: 22.5rem;
+    display: flex;
+    align-items: center;
     height: 3rem;
     border: 0;
+    padding-left: 1rem;
+    color: white;
     background:  rgb(33, 33, 34) ;
 }
 .messg-cnt{
-    height: 8rem;
+    /* height: 8rem; */
     width: 50rem;
     background:  rgb(33, 33, 34) ;
     border: 0;
+    display: flex;
+    align-items: center;
+    /* height: 3rem; */
     border-radius: 1rem;
 }
 .btn-cnt{
+    margin-top: 2.5rem;
     float: left;
     width: 15rem;
     height: 3.5rem;

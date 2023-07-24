@@ -4,8 +4,11 @@ import{AiOutlineMail} from "react-icons/ai";
 import{BsPersonFill} from"react-icons/bs";
 import {BsSend} from"react-icons/bs";
 import {ImLocation2} from "react-icons/im";
-import {FaFacebook} from "react-icons/fa";
+import {FaFacebook, FaTwitter,FaLinkedin} from "react-icons/fa";
 import Navbar from "./Navbar";
+import{CiMail} from"react-icons/ci";
+import{FiInstagram} from "react-icons/fi";
+
 import "./Contact.css";
 
 const Contact=()=>{
@@ -28,15 +31,15 @@ const Contact=()=>{
                             <div className="address-cnt">Address</div>
                             <div className="address-cnt"><ImLocation2 className="icon-cnt"/>PandeyMuhalla, Near BLC Hirapur, Dhanbad, Jharkhand</div>
                             <div className="social-cnt">Social Profile</div>
-                            <div> <FaFacebook/></div>
+                            <div className="icon-cnt-social"> <div><a href= {"https://www.facebook.com/profile.php?id=100006377015116"}><FaFacebook className="icon-f" /></a></div> <div><a href={"https://www.instagram.com/abhishekpandey22/"}><FiInstagram className="icon-i"/></a></div> <div><a href={"https://twitter.com/abhishe14002262"}><FaTwitter className="icon-t"/></a></div><div><a href={"https://www.linkedin.com/in/abhishek-pandey-6953201b7/"}><FaLinkedin className="icon-l"/></a></div></div>
                         </div>
                         <div className="input-desk">
                             <div>If you have any suggestion, project or even you want to say Hello.. please fill out the form below and I will reply you shortly.</div>
                             <div className="input-cntr">
                             <div className="input-cntr1">
-                            <div ><BsPersonFill/><input placeholder="Your Name" className="name-cnt"></input></div> <div><input placeholder="Your Email" className="email-cnt"></input></div>
+                            <div className="name-cnt"><BsPersonFill/><input className="input-box" placeholder="Your Name" ></input></div> <div className="email-cnt"><CiMail/><input className="input-box" placeholder="Your Email" ></input></div>
                             </div>
-                            <div ><input placeholder="Your Message" className="messg-cnt"></input></div>
+                            <div className="messg-cnt"><textarea placeholder="Your Message" className="input-box"  rows="10"></textarea></div>
                             </div>
 
                             <div><button className="btn-cnt"><BsSend/> SEND MESSAGE</button></div>

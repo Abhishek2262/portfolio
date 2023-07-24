@@ -1,8 +1,21 @@
 h1,h2,h3,p{
     margin: 0px;
-    display: flex;
     text-align: left;
     
+  }
+
+  body{
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
+  }
+
+   
+  .overall-landing{
+    
+    /* height: 100vh; */
+    /* width: 100vw; */
+    display: flex;
+    font-family: "Macha Medium" ;
   }
   .nav{
     margin-top: 2rem;
@@ -18,29 +31,37 @@ h1,h2,h3,p{
     /* border-radius: 50%; */
     
   }
- 
-  .Landingpg{
-    background-color: black;
-    background-image: linear-gradient(to right, rgb(33, 33, 34) , rgb(0, 0, 0));
-    height: 100vh;
-    width: 100vw;
+
+
+  .hero-section{
     display: flex;
+    align-items: center;
+    gap: 2rem;
     font-family: "Macha Medium" ;
   }
-  .l1{
+  .left-side{
+    width: 50%;
+  
+  }
+  .right-side{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 2rem;
     text-align: center;
     color: whitesmoke;
-    margin-top: 17rem;
+    /* margin-top: 17rem; */
     padding-top : 2rem;
   }
   .img1{
-   height: 30rem;
-   padding: 3rem;
-   margin-top: 5rem;
+    width: 80%;
+   padding: 10%;
+   margin-top: 20%;
   }
   .l2{
     text-align: left;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
   }
   .btn{
     padding-top: 2rem;
@@ -106,6 +127,7 @@ h1,h2,h3,p{
      align-items: center;
     
   }
+
   
   .box1-icon-nav:hover,  .box1-icon-nav1:hover,  .box1-icon-nav2:hover,   .box1-icon-nav3:hover{
     color: orange;
@@ -125,4 +147,39 @@ h1,h2,h3,p{
     width: 9.5rem;
     
     
+  }
+
+
+
+  /** ----- TABLET VIEW ----- */
+
+  @media only screen 
+  and (max-device-width: 780px)  {
+
+    .overall-landing{
+      flex-direction: column;
+      height: 100vh;
+    }
+      .img1 {
+       
+        width: 80%;
+        margin-top:-6rem;
+        z-index: -1;
+      }
+    .hero-section{
+      flex-direction: column;
+    }
+
+    .left-side{
+      width: 100%;
+    }
+
+    .right-side{
+      width: 80%;
+     
+      padding-top: 0rem;
+      padding-bottom: 3rem;
+
+    }
+
   }

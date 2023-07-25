@@ -14,7 +14,7 @@
         return(
             <>
                 <div className="abtme">
-                    <div><Navbar/></div>
+                    <div style={{zIndex:"7"}}><Navbar/></div>
                     <div className="hello">
                     <div className="abt1" >
                 

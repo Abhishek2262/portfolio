@@ -46,7 +46,7 @@ export default function Abhoutme() {
               </div>
               <a
                 href={CV}
-                download="My-CV.pdf"
+                download="Abhishek-Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 style={{textDecoration: 'none'}}

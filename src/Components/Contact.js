@@ -23,7 +23,7 @@ const Contact = () => {
 
     const submitForm = async () => {
 
-        if(name.trim.length > 0 && message.trim.length > 0){
+        if(name.trim().length > 0 && message.trim().length > 0){
             axios.post('https://formspree.io/f/xgejonqj', {name, email, message})
             .then((data) => {
                 alert('Message sent successfully!')

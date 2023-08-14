@@ -262,6 +262,54 @@
     font-size: 1.5rem;
     color: orange; 
 }
+.item-progress-OS{
+    width: 9rem;
+    height: 0.12rem;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+}
+.percent-icon-OS{
+    margin-left: 9rem;
+    font-size: 1.5rem;
+    color: orange; 
+}
+.item-progress-NJ{
+    width: 7rem;
+    height: 0.12rem;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+}
+.percent-icon-NJ{
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    color: orange; 
+}
+.item-progress-py{
+    width: 10rem;
+    height: 0.12rem;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+}
+.percent-icon-py{
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color: orange; 
+}
+.item-progress-dm{
+    width: 10rem;
+    height: 0.12rem;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+}
+.percent-icon-dm{
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color: orange; 
+}
 .item-line{
     width: 15rem;
     background-color: grey;

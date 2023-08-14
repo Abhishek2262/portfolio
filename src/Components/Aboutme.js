@@ -260,10 +260,10 @@ export default function Abhoutme() {
                   <span className="">
                     <div className="skill-h">Operating System</div>
                   </span>
-                  <div className="item-progress"></div>
+                  <div className="item-progress-OS"></div>
 
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
+                  <TfiComment className="percent-icon-OS" />
+                  <span className="percentage">60%</span>
 
                   <div className="item-line"></div>
                 </div>
@@ -284,10 +284,10 @@ export default function Abhoutme() {
                   <span className="">
                     <div className="skill-h">Node JS</div>
                   </span>
-                  <div className="item-progress"></div>
+                  <div className="item-progress-NJ"></div>
 
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
+                  <TfiComment className="percent-icon-NJ" />
+                  <span className="percentage">50%</span>
 
                   <div className="item-line"></div>
                 </div>
@@ -319,10 +319,10 @@ export default function Abhoutme() {
                   <span className="">
                     <div className="skill-h">Database Modeling</div>
                   </span>
-                  <div className="item-progress"></div>
+                  <div className="item-progress-dm"></div>
 
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
+                  <TfiComment className="percent-icon-dm" />
+                  <span className="percentage">70%</span>
 
                   <div className="item-line"></div>
                 </div>
@@ -341,10 +341,10 @@ export default function Abhoutme() {
                   <span className="">
                     <div className="skill-h">Python</div>
                   </span>
-                  <div className="item-progress"></div>
+                  <div className="item-progress-py"></div>
 
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
+                  <TfiComment className="percent-icon-py" />
+                  <span className="percentage">70%</span>
 
                   <div className="item-line"></div>
                 </div>

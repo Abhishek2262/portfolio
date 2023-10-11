@@ -24,7 +24,7 @@ const Portfolio = () => {
     image: gp1,
     project: "Website",
     duration: "4 Months",
-    description: "• Developed the front-end of a prototype website for school fee management.Used React for front-end.My contribution is to frame the front-end of the Website using React.",
+    description: "Developed the front-end of a prototype website for school fee management.Used React for front-end.My contribution is to frame the front-end of the Website using React.",
     tech: "ReactJs, CSS, HTML",
     github: "https://github.com/Abhishek2262/fee-management",
   }, {

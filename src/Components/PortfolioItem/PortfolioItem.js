@@ -25,9 +25,10 @@ const PortfolioItem = (props) => {
           <img className="portfolio-rtr" src={data.image} alt="logo" />
         </div>
         <h1 style={{ fontSize: "1.9rem" }}>{data.title}</h1>
-        <p>Project: {data.project}</p>
-        <p>Duration: {data.duration}</p>
-        <p>Technology Used: {data.tech}</p>
+        <p className="p-item1">Project: {data.project}</p>
+        <p className="p-item2">Duration: {data.duration}</p>
+        <p className="p-item3">Technology Used: {data.tech}</p>
+        <p className="p-item4">Discription : {data.description}</p>
 
         <button className="portfolio-btn">
           {" "}

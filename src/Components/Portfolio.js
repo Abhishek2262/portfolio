@@ -12,29 +12,29 @@ const Portfolio = () => {
 //   const [currentItem, setcurrentItem] = useState(0);
 
   const data = [{
-    title: "Rotaract Website0",
+    title: "Rotaract Website",
     image: rtr,
     project: "Website",
     duration: "4 Months",
-    description: "",
-    tech: "",
-    github: "https://google.com",
+    description: "Designed a prominent showcase website for BIT Mesra’s Rotaract Club. Utilized ReactJs/Next.Js to create an intuitive frontend. Seamlessly worked with the backend team to integrate necessary databases and functionality",
+    tech: " React JS, Next JS, CSS, Tailwind CSS, HTML, AOS(Animate on Scroll Library)",
+    github: "https://github.com/Abhishek2262/rotaract-website",
   }, {
-    title: "Rotaract Website1",
+    title: "Fee Management",
     image: gp1,
     project: "Website",
     duration: "4 Months",
-    description: "",
-    tech: "",
-    github: "https://rishiksahu.in",
+    description: "• Developed the front-end of a prototype website for school fee management.Used React for front-end.My contribution is to frame the front-end of the Website using React.",
+    tech: "ReactJs, CSS, HTML",
+    github: "https://github.com/Abhishek2262/fee-management",
   }, {
-    title: "Rotaract Website2",
+    title: "Porfolio Website",
     image: gp2,
     project: "Website",
     duration: "4 Months",
-    description: "",
-    tech: "",
-    github: "https://bard.google.com",
+    description: "Developed my portfolio website to showcase all my projects and skills.Used React for front-end.Learnt to use browser router to successfully route within pages.",
+    tech: "ReactJs, CSS, HTML",
+    github: "https://github.com/Abhishek2262/portfolio",
   }];
 
   function display(idx) {

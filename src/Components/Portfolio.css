@@ -5,6 +5,7 @@
     color: rgb(255, 255, 255);
     font-family: "Macha Medium" ;
     position: fixed;
+
 }
 .sp1{
     color:  rgb(255, 180, 0);
@@ -21,7 +22,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 4rem;
-    font-size: 4rem;
+    font-size: 4rem; 
     
 }
 .pitch-line{
@@ -200,5 +201,28 @@
 .master-popup2-hide{
     display: none;
 
+}
+@media only screen
+and (max-device-width:780px){
+    .bgportfolio{
+        flex-direction: column;
+        max-height: auto;
+        overflow-y: scroll;
+    }
+    .portfoliocntr{
+        font-size: medium;
+    }
+    .heading-portfolio{
+        margin-top: 8rem;
+        font-size: 3rem;
+    }
+    .box-cntr{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100vw; 
+    }
+   .box-1{
+    min-height: 20rem;
+   }
 }
 

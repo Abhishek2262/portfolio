@@ -60,7 +60,7 @@ const Portfolio = () => {
               EMAIL ME.{" "}
             </div>
             <div className="portfolioline" />
-          </div>
+          </div> 
           <div className="box-cntr">
             <div className="box-1" onClick={() => display(0)}>
               <div className="heading1">

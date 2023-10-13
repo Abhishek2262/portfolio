@@ -61,6 +61,7 @@ export default function Navbar (){
         <>
         {isToggled ?  <button className="nav" 
         style={{height:`${buttonDimensions.height}rem`, 
+        position: 'absolute',
         width:`${buttonDimensions.width}rem`, 
         borderRadius: `${buttonDimensions.borderRadius}px`}} 
         > <div className="icon-cntr-nav">
@@ -77,6 +78,7 @@ export default function Navbar (){
         : (
          <button className="nav" style={{height:`${buttonDimensions.height}rem`, 
          width:`${buttonDimensions.width}rem`, 
+        position: 'absolute',
          borderRadius: `${buttonDimensions.borderRadius}px`}} 
          onClick={changeButtonDimensions}>
           <AiOutlineMenu/></button>

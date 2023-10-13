@@ -3,9 +3,11 @@ import "./Aboutme.css";
 import Navbar from "./Navbar";
 import { FaCalendarAlt } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
-import { TfiComment } from "react-icons/tfi";
 import gp2 from "./photos/gp2.png";
 import CV from "./CV/Resume.pdf";
+import SkillItem from "./SkillItem/SkillItem";
+import Experience from "./ExperinceItems/Experience";
+import EducationItem from "./EducationItem/EducationItem";
 
 export default function Abhoutme() {
   return (
@@ -17,7 +19,7 @@ export default function Abhoutme() {
         <div className="hello">
           <div className="abt1">
             <h1 className="abth1">ABOUT ME</h1>
-            <div>
+            <div className="quote1">
               <div className="hr1"></div>{" "}
               <h3>I Code and Build Beauitful Things, AND I LOVE WHAT I Do </h3>
               <div className="hr2"></div>
@@ -70,39 +72,13 @@ export default function Abhoutme() {
                 <div>
                   <div className="dot"></div> <div className="expl"></div>
                 </div>
-
-                <div className="gigcn">
-                  <div className="gig1">
-                    <div className="expy">
-                      <FaCalendarAlt />
-                      <div className="expyear">01/2023 - 04/2023</div>
-                    </div>
-                    <div className="cmpnyt">SEO Head - Gigzoe</div>
-                    <div className="work-discription">
-                      Gigzoe is freelancer company, also it gives service for
-                      your business.
-                    </div>
-                  </div>
-                </div>
+                <Experience startyear={'01/2022'} endyea={'04/2022'} role={'SEO Head'} comapny_name={'Gigzoe'} job_discription={'Gigzoe is freelancer company, also it gives service for your business.'}/>
               </div>
               <div className="gigcntr">
                 <div>
                   <div className="dot"></div> <div className="expl"></div>
                 </div>
-
-                <div className="gigcn">
-                  <div className="gig1">
-                    <div className="expy">
-                      <FaCalendarAlt />
-                      <div className="expyear">07/2023 - 09/2023</div>
-                    </div>
-                    <div className="cmpnyt">Digital Marketing - Gobookmart</div>
-                    <div className="work-discription">
-                      It is a print media company, they review the best books
-                      and conduct interviews with the authors.
-                    </div>
-                  </div>
-                </div>
+                <Experience startyear={'07/2021'} endyear={'09/2021'} role={'Digital Marketing'} comapny_name={' Gobookmart'} job_discription={'It is a print media company, they review the best books and conduct interviews with the authors.'}/>
               </div>
               <div className="dot"></div>
               <div className="expl"></div>
@@ -114,60 +90,21 @@ export default function Abhoutme() {
                   <div className="dot"></div> <div className="edul"></div>
                 </div>
 
-                <div className="gigcn">
-                  <div className="gig1">
-                    <div className="expy">
-                      <FaCalendarAlt />
-                      <div className="expyear">07/2019 - Present</div>
-                    </div>
-                    <div className="cmpnyt">Mathematics & Computing</div>
-                    <div>Birla Institute Of Technology</div>
-                    <div className="work-discription-edu">
-                      Courses
-                      <div>Mathematics & Computing</div>
-                    </div>
-                  </div>
-                </div>
+
+              <EducationItem startyear={'07/2019'} endyear={'Present'} course={"Mathematics & Computing"}  institute={'Birla Institute Of Technology '}work_description ={'Mathematics & Computing'}/>
               </div>
               <div className="gigcntr">
                 <div>
                   <div className="dot"></div> <div className="edul"></div>
                 </div>
 
-                <div className="gigcn">
-                  <div className="gig1">
-                    <div className="expy">
-                      <FaCalendarAlt />
-                      <div className="expyear">03/2017 - 03/2019</div>
-                    </div>
-                    <div className="cmpnyt">Higher Secondary (HSC)</div>
-                    <div>Rajkamal Saraswati Vidhaya Mandir</div>
-                    <div className="work-discription-edu">
-                      {" "}
-                      Dhanbad, Jharkhand, Pincode - 826001.
-                    </div>
-                  </div>
-                </div>
+                <EducationItem startyear={'03/2017'} endyear={'03/2019'} course={" Higher Secondary (HSC)"}  institute={' Rajkamal Saraswati Vidhaya Mandir '}work_description ={'  Dhanbad, Jharkhand, Pincode - 826001. '}/>
               </div>
               <div className="gigcntr">
                 <div>
                   <div className="dot"></div> <div className="expl"></div>
                 </div>
-
-                <div className="gigcn">
-                  <div className="gig1">
-                    <div className="expy">
-                      <FaCalendarAlt />
-                      <div className="expyear">03/2009 - 03/2017</div>
-                    </div>
-                    <div className="cmpnyt">Secondary School (SSC)</div>
-                    <div>Indian School of Learning</div>
-                    <div className="work-discription-edu">
-                      {" "}
-                      Dhanbad, Jharkhand, Pincode - 826001.
-                    </div>
-                  </div>
-                </div>
+                <EducationItem startyear={'03/2009'} endyear={'03/2017'} course={" Secondary School (SSC) "}  institute={'Indian School of Learning '}work_description ={'  Dhanbad, Jharkhand, Pincode - 826001. '}/>
               </div>
             </div>
           </div>
@@ -175,179 +112,30 @@ export default function Abhoutme() {
             <h2>SKILLS</h2>
             <div className="skills-meter">
               <div className="cntr1">
-                <div className="skill-html">
-                  <span className="">
-                    <div className="skill-h">HTML</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html2">
-                  <span className="">
-                    <div className="skill-h">CSS</div>
-                  </span>
-                  <div className="item-progress-css"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html3">
-                  <span className="">
-                    <div className="skill-h">JAVA SCRIPT</div>
-                  </span>
-                  <div className="item-progress-javascript"></div>
-
-                  <TfiComment className="percent-icon-javascript" />
-                  <span className="percentage">60%</span>
-
-                  <div className="item-line"></div>
-                </div>
+                <SkillItem name={'HTML'} progress={80}/>
+                <SkillItem name={'CSS'} progress={70} />
+                <SkillItem name={'Java Script'} progress={50}/>
+                
               </div>
               <div className="cntr2">
-                <div className="skill-html4">
-                  <span className="">
-                    <div className="skill-h">React</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">TailWind CSS</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">SEO</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
+              <SkillItem name={'React JS'} progress={70}/>
+              <SkillItem name={'Tailwind CSS'} progress={75}/>
+              <SkillItem name={'SEO'} progress={80}/>  
               </div>
               <div className="cntr3">
-                <div className="skill-html4">
-                  <span className="">
-                    <div className="skill-h">Digital Marketing</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">Operating System</div>
-                  </span>
-                  <div className="item-progress-OS"></div>
-
-                  <TfiComment className="percent-icon-OS" />
-                  <span className="percentage">60%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">C++</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
+                <SkillItem name={'Digital marketing'} progress={80}/>
+                <SkillItem name={'operating System'} progress={75}/>
+                <SkillItem name={'C++'} progress={80}/>
               </div>
               <div className="cntr4">
-                <div className="skill-html4">
-                  <span className="">
-                    <div className="skill-h">Node JS</div>
-                  </span>
-                  <div className="item-progress-NJ"></div>
-
-                  <TfiComment className="percent-icon-NJ" />
-                  <span className="percentage">50%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">Next JS</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">Data Structure & Algo</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
+               <SkillItem name={'Next Js'} progress={65}/>
+               <SkillItem name={'Data structures & Algorithms'} progress={70}/>
+               <SkillItem name={'My SQL'} progress={70}/>
               </div>
               <div className="cntr5">
-                <div className="skill-html4">
-                  <span className="">
-                    <div className="skill-h">Database Modeling</div>
-                  </span>
-                  <div className="item-progress-dm"></div>
-
-                  <TfiComment className="percent-icon-dm" />
-                  <span className="percentage">70%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">Backlink creation</div>
-                  </span>
-                  <div className="item-progress"></div>
-
-                  <TfiComment className="percent-icon" />
-                  <span className="percentage">80%</span>
-
-                  <div className="item-line"></div>
-                </div>
-                <div className="skill-html5">
-                  <span className="">
-                    <div className="skill-h">Python</div>
-                  </span>
-                  <div className="item-progress-py"></div>
-
-                  <TfiComment className="percent-icon-py" />
-                  <span className="percentage">70%</span>
-
-                  <div className="item-line"></div>
-                </div>
+                <SkillItem name={'DBMS'} progress={55}/>
+                <SkillItem name={'Python'} progress={70}/>
+                <SkillItem name={'OOPs'} progress={75}/>
               </div>
             </div>
           </div>

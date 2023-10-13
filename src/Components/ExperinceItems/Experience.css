@@ -1,0 +1,28 @@
+.gigcntr{
+    display: flex;
+    width: 20rem;
+}
+.gig1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    height: 1rem;
+}
+.expy{
+    display: flex;
+    height: 1rem;
+    padding-bottom: 5px;
+}
+.expyear{
+   max-height: 1.3rem;
+   margin-left: 1rem;
+  
+}
+.cmpnyt{
+    margin-top: 1rem;
+    font-size: large;
+}
+.work-discription{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

@@ -20,7 +20,7 @@ export default function LandingPage() {
           <Navbar />
         </div>
 
-        <div className="hero-section">
+        <div className="hero-section" >
           <div className="left-side">
             <img className="img1"   src={gp2} alt="ABhishek" />
           </div>
@@ -44,7 +44,7 @@ export default function LandingPage() {
               I'm a student of Mathemactis and Computing and Software and Web
               Developer based in Jharkhand, Dhanbad. I strives to build
               immersive and beautiful web applications through carefully crafted 
-              code and user-centric design.
+              code and user-centric design. 
             </p>
             <div className="btn">
               <button className="btn1" onClick={goToPortfolio}>

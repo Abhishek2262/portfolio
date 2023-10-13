@@ -158,16 +158,19 @@ h1,h2,h3,p{
 
     .overall-landing{
       flex-direction: column;
-      height: 100vh;
+      height: 100vh; 
     }
       .img1 {
        
         width: 80%;
-        margin-top:-6rem;
+        margin-top:1rem;
         z-index: -1;
+       
+       
       }
     .hero-section{
       flex-direction: column;
+      margin-top: 5rem;
     }
 
     .left-side{
@@ -181,5 +184,8 @@ h1,h2,h3,p{
       padding-bottom: 3rem;
 
     }
+  .l-nav{
+    z-index: 2;
+  }
 
   }

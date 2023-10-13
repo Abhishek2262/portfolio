@@ -1,0 +1,29 @@
+
+  .item-progress-css{
+    /* width: 5.9rem; */
+    height: 0.12rem;
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
+  
+  
+}
+
+.skill-html2{
+    height: 4rem;
+}
+.item-line{
+    width: 15rem;
+    background-color: grey;
+    height: 0.12rem;
+
+}
+
+.percent-icon{
+    /* margin-left: 11.6rem; */
+    font-size: 1.5rem;
+    color: orange; 
+  }
+  .percentage{
+    color: rgb(142, 103, 31);
+  }

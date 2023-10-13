@@ -1,7 +1,6 @@
 import React from "react";
 import "./Aboutme.css";
 import Navbar from "./Navbar";
-import { FaCalendarAlt } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import gp2 from "./photos/gp2.png";
 import CV from "./CV/Resume.pdf";

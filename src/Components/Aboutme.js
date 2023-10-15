@@ -12,7 +12,7 @@ export default function Abhoutme() {
   return (
     <>
       <div className="abtme">
-        <div style={{ zIndex: "7" }}>
+        <div style={{ zIndex: "2" }}>
           <Navbar />
         </div>
         <div className="hello">
@@ -107,35 +107,35 @@ export default function Abhoutme() {
               </div>
             </div>
           </div>
-          <div className="skillcntr">
+          <div  className="skillcntr">
             <h2>SKILLS</h2>
-            <div className="skills-meter">
-              <div className="cntr1">
+            <div className="skills-inner" >
+              {/* <div className="cntr1"> */}
                 <SkillItem name={'HTML'} progress={80}/>
                 <SkillItem name={'CSS'} progress={70} />
                 <SkillItem name={'Java Script'} progress={50}/>
                 
-              </div>
-              <div className="cntr2">
+              {/* </div> */}
+              {/* <div className="cntr2"> */}
               <SkillItem name={'React JS'} progress={70}/>
               <SkillItem name={'Tailwind CSS'} progress={75}/>
               <SkillItem name={'SEO'} progress={80}/>  
-              </div>
-              <div className="cntr3">
+              {/* </div> */}
+              {/* <div className="cntr3"> */}
                 <SkillItem name={'Digital marketing'} progress={80}/>
                 <SkillItem name={'operating System'} progress={75}/>
                 <SkillItem name={'C++'} progress={80}/>
-              </div>
-              <div className="cntr4">
+              {/* </div> */}
+              {/* <div className="cntr4"> */}
                <SkillItem name={'Next Js'} progress={65}/>
                <SkillItem name={'Data structures & Algorithms'} progress={70}/>
                <SkillItem name={'My SQL'} progress={70}/>
-              </div>
-              <div className="cntr5">
+              {/* </div> */}
+              {/* <div className="cntr5"> */}
                 <SkillItem name={'DBMS'} progress={55}/>
                 <SkillItem name={'Python'} progress={70}/>
                 <SkillItem name={'OOPs'} progress={75}/>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

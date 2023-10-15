@@ -11,6 +11,7 @@
 
 .skill-html2{
     height: 4rem;
+    max-width: 20rem;
 }
 .item-line{
     width: 15rem;
@@ -26,4 +27,8 @@
   }
   .percentage{
     color: rgb(142, 103, 31);
+  }
+  @media only screen  and (max-device-width:780px){
+    
+    
   }

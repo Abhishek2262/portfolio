@@ -184,6 +184,10 @@ h1,h2,h3,p{
       padding-bottom: 3rem;
 
     }
+
+    .home-nav{
+      display: none;
+    }
   .l-nav{
     z-index: 2;
   }

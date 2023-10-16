@@ -37,7 +37,7 @@ const Contact = () => {
 
         }
 
-    }
+    } 
  
     
 
@@ -54,9 +54,9 @@ const Contact = () => {
           </h1>
           <div className="subhead">
             <div className="linecnt"></div>
-            <div>
-              I'M ALWAYS OPEN TO DISCUSSING WEB DEVELOPMENT & DATA STRUTRES
-            </div>
+            <p>
+             I.m always open to discussing Web Development & Data Structures.
+            </p>
             <div className="linecnt2"></div>
           </div>
           <div className="contact-detail-cntr">
@@ -89,12 +89,12 @@ const Contact = () => {
                 </div>{" "}
                 <div>
                   <a href={"https://www.instagram.com/abhishekpandey22/"}>
-                    <FiInstagram className="icon-i" />
+                    <FiInstagram className="icon-f" />
                   </a>
                 </div>{" "}
                 <div>
                   <a href={"https://twitter.com/abhishe14002262"}>
-                    <FaTwitter className="icon-t" />
+                    <FaTwitter className="icon-f" />
                   </a>
                 </div>
                 <div>
@@ -103,17 +103,17 @@ const Contact = () => {
                       "https://www.linkedin.com/in/abhishek-pandey-6953201b7/"
                     }
                   >
-                    <FaLinkedin className="icon-l" />
+                    <FaLinkedin className="icon-f" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="input-desk">
-              <div>
+              <p>
                 If you have any suggestion, project or even you want to say
                 Hello.. please fill out the form below and I will reply you
                 shortly.
-              </div>
+              </p>
               <form
                 className="input-cntr"
                 onSubmit={(E) => {E.preventDefault(); submitForm();}}
@@ -132,7 +132,7 @@ const Contact = () => {
                       placeholder="Your Name*"
                     ></input>{" "}
                   </label>
-                  <label className="email-cnt">
+                  <label className="name-cnt">
                     <CiMail />
                     <input
                         required
@@ -145,7 +145,7 @@ const Contact = () => {
                     ></input>
                   </label>
                 </div>
-                <label className="messg-cnt">
+                <label className="name-cnt">
                   <textarea
                     required
                     value={message}

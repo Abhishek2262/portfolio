@@ -20,7 +20,7 @@ const Portfolio = () => {
     tech: " React JS, Next JS, CSS, Tailwind CSS, HTML, AOS(Animate on Scroll Library)",
     github: "https://github.com/Abhishek2262/rotaract-website",
   }, {
-    title: "Fee Management",
+    title: "Fee Management", 
     image: gp1,
     project: "Website",
     duration: "4 Months",

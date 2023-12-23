@@ -331,7 +331,8 @@ and (max-device-width: 780px) {
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        height: 100vh;
+        height: max-content;
+        
     }
     .abt1{
        

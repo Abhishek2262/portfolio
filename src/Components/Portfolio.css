@@ -44,7 +44,7 @@
     width: 80rem;
     height: 30rem;
     display: flex;
-  
+    
 }
 .box-1{
     background-color: rgb(246, 148, 148);
@@ -218,16 +218,20 @@ and (max-device-width:780px){
     }
     .box-cntr{
         flex-direction: column;
-        align-items: center;
-        max-width: 100vw; 
-        height:max-content;
+        /* align-items: center; */
+        justify-content: center;
+        width: auto; 
+        height:auto;
         margin: auto;
-        gap: 1rem;
+        gap: 1.5rem;
+        padding: 1rem;
+        
     }
    .box-1{
     margin: auto;
     max-width: 23rem;
     max-height: 12rem;
    }
+   
 }
 

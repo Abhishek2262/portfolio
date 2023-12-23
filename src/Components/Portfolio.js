@@ -53,7 +53,7 @@ const Portfolio = () => {
         </div>
         <div className="portfoliocntr">
           <h1 className="heading-portfolio"> My Portfolio</h1>
-          <div style={{ display: "flex", paddingTop: "2rem" }}>
+          <div style={{ display: "flex", padding: "1rem" }}>
             <div className="portfolioline" />
             <div className="pitch-line">
               A FEW RECENT PROJECTS BUILD AND CODE PROJECT. WANT TO SEE MORE

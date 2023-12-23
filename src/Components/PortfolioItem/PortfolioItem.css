@@ -5,11 +5,14 @@
     display: flex;
     min-height: 100vh;
     color: whitesmoke;
+    justify-content: flex-start;
 }
 
 .close_btn{
     position: fixed;
     right: 2rem;
+    top: 1rem;
+    /* background-color: red; */
 }
 
 .left{
@@ -35,10 +38,35 @@
 .image_container{
     background-color: whitesmoke;
     border: 1px solid grey;
-    margin-right: 4rem;
-    margin-top: 2rem;
+    /* margin-right: rem; */
+    width:91%;
+
 }
 .portfolio-rtr{
     width:fit-content;
     
+}
+
+@media only screen
+and (max-device-width:780px){
+  
+   .right{
+    display: flex; 
+    justify-content: center;
+    width: auto;
+    
+   }
+   .left{
+    display: none;
+   }
+   .image_container{
+    width: 100%;
+   }
+   .close_btn{
+    
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 1.5rem;
+
+}
 }

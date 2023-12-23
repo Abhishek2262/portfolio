@@ -2,7 +2,7 @@ import React from "react";
 import "./Aboutme.css";
 import Navbar from "./Navbar";
 import { MdDownload } from "react-icons/md";
-import gp2 from "./photos/gp2.png";
+import mypic from "./photos/mypic.png";
 import CV from "./CV/Resume.pdf";
 import SkillItem from "./SkillItem/SkillItem";
 import Experience from "./ExperinceItems/Experience";
@@ -27,7 +27,7 @@ export default function Abhoutme() {
           <div className="cont1">
             <div className="profpic">
               <div className="inside">
-                <img className="abt-img" src={gp2} alt="Abhi" />
+                <img className="abt-img" src={mypic} alt="Abhi" />
               </div>
             </div>
             <div className="abt2">

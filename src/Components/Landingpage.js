@@ -1,6 +1,6 @@
 import React from "react";
 import "./Landingpage.css";
-import gp2 from "./photos/gp2.png";
+import gp2 from "./photos/mypichorizontal.png";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 import MovingText from "react-moving-text";

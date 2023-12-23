@@ -38,9 +38,12 @@ h1,h2,h3,p{
     align-items: center;
     gap: 2rem;
     font-family: "Macha Medium" ;
+    padding: 1%;
   }
   .left-side{
     width: 50%;
+    display: flex;
+    justify-content: center;
   
   }
   .right-side{
@@ -51,11 +54,10 @@ h1,h2,h3,p{
     padding-right: 2rem;
     text-align: center;
     color: whitesmoke;
-    /* margin-top: 17rem; */
     padding-top : 2rem;
   }
   .img1{
-    width: 80%;
+    width: 45%;
    padding: 10%;
    margin-top: 20%;
   }

@@ -41,9 +41,9 @@
    
     display: flex;
     flex-direction: column;
-    /* margin-left: -6rem; */
     color: whitesmoke;
     align-items: center; 
+    justify-content: center;
     width: 100%;
 }
 .abt2{
@@ -61,7 +61,7 @@
 .profpic{
     background-color: rgba(255, 255, 255, 0.66);
     width: 30rem;
-    height: 22.7rem;
+    height: 20rem;
 }
 .cont1{
     width: 81rem;
@@ -117,17 +117,16 @@
    height: 36rem;
 }
 .expcntr{
-    width: 50rem;
+    width: 50%;
     
     padding-left: 0.5rem;
-    height: 30rem;
+    
 
 }
 .educntr{
-    width: 50rem;
-    height: 30rem;
+    width: 50%;
     
-   
+
 }
 .exph{
     margin-bottom: 4rem;
@@ -192,12 +191,13 @@
 }
 .skillcntr{
    
-    
-    width: 80rem;
+
+    width: 95%;
     height: 30rem;
-    margin-top: 6rem;
-    margin-right: 8rem;
-    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
 }
 
 .cntr1{
@@ -228,6 +228,7 @@
 
 .skills-inner{
     display: grid;
+padding: 2%;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -359,20 +360,14 @@ and (max-device-width: 780px) {
     .cont1{
         display: flex;
         flex-direction: column;
-        width: 19rem;
+        width: 20rem;
     }
     .inside{
-        width: 14rem;
+        width: auto;
     }
-    .profpic{
-      
-        display: flex;
-        flex-direction: column;
-        width: 19rem;
-        height: 14rem;
-    }
+   
     .abt-img{
-        width: 19rem;
+        width:100%;
     }
     .hr3{
         width: 19rem;
@@ -398,10 +393,16 @@ and (max-device-width: 780px) {
     .skillcntr{
        width: 19rem;
        margin:auto;
-       
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
        height: auto;
     }
-    
+    .profpic{
+        display: flex;
+        width: auto;
+        height: auto;
+    }
     .skills-inner{
         margin: auto;
         display: grid;

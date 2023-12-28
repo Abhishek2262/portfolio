@@ -41,7 +41,7 @@ export default function LandingPage() {
               </MovingText>
             </div>
             <p className="l2">
-              I'm a student of Mathemactis and Computing and Software and Web
+              I'm a student of Mathematics and Computing, Software and Web
               Developer based in Jharkhand, Dhanbad. I strives to build
               immersive and beautiful web applications through carefully crafted 
               code and user-centric design. 

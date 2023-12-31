@@ -10,7 +10,7 @@ import PortfolioItem from "./PortfolioItem/PortfolioItem";
 const Portfolio = () => {
   const [isItemDisplay, setisItemDisplay] = useState({ show: false, index: 0 });
   //   const [currentItem, setcurrentItem] = useState(0);
-  
+
   const data = [
     {
       title: "Rotaract Website",
@@ -42,18 +42,25 @@ const Portfolio = () => {
       tech: "ReactJs, CSS, HTML",
       github: "https://github.com/Abhishek2262/portfolio",
     },
+    {
+      title : "Library Management System ",
+      image: gp1,
+      project: "Website",
+      duration : " 28- Dec - 2023 -  Working....",
+      description : "This Project is under construction, coming-soon",
+      tech: "ReactJs, CSS, HTML, JavaScript, Node.JS, Express.",
+      github : "https://github.com/Abhishek2262/Libarary-management--System--Frontend",
+    },
   ];
   // const myStyle ={
   //   backgroundImage : `url(${rtr})`,
   //    backgroundSize: "cover",
-    
-    
+
   // };
   // const myStyle1 ={
   //   backgroundImage: `url(${gp1})`,
   //    backgroundSize: "cover",
   // };
- 
 
   function display(idx) {
     setisItemDisplay({ show: true, index: idx });
@@ -86,20 +93,27 @@ const Portfolio = () => {
             <div className="portfolioline" />
           </div>
           <div className="box-cntr">
-            <div className="box-1"  onClick={() => display(0)}>
-            
-              <div className="bg-h1"><div className="heading1">
-                Rotaract Website of BIT Mesra Ranchi
-              </div></div>
+            <div className="box-1" onClick={() => display(0)}>
+              <div className="bg-h1">
+                <div className="heading1">
+                  Rotaract Website of BIT Mesra Ranchi
+                </div>
+              </div>
             </div>
-            <div className="box-1"  onClick={() => display(1)}>
-              <div className="bg-h1"><div className="heading1">Fee Management</div></div>{" "}
+            <div className="box-1" onClick={() => display(1)}>
+              <div className="bg-h1">
+                <div className="heading1">Fee Management</div>
+              </div>{" "}
             </div>
             <div className="box-1" onClick={() => display(2)}>
-              <div className="bg-h1"><div className="heading1">Portfolio Website</div></div>{" "}
+              <div className="bg-h1">
+                <div className="heading1">Portfolio Website</div>
+              </div>{" "}
             </div>
-            <div className="box-1">
-              <div className="bg-h1"><div className="heading1">Library Management System</div></div>{" "}
+            <div className="box-1" onClick={() => display(3)}>
+              <div className="bg-h1">
+                <div className="heading1">Library Management System <br></br> <br></br>( Coming soon)</div>
+              </div>{" "}
             </div>
           </div>
         </div>

@@ -76,6 +76,9 @@
   gap: 5rem;
   margin-bottom: 1rem;
 }
+input, select, textarea{
+    color:white;
+}
 
 .name-cnt {
   min-width: 100%;

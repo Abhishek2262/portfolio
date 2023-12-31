@@ -9,7 +9,6 @@ import Navbar from "./Navbar";
 import { CiMail } from "react-icons/ci";
 import { FiInstagram } from "react-icons/fi";
 import axios from "axios";
-
 import "./Contact.css";
 
 const Contact = () => {
@@ -124,6 +123,7 @@ const Contact = () => {
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       placeholder="Your Name*"
+                      
                     ></input>{" "}
                   </label>
                   <label className="name-cnt">

@@ -123,7 +123,6 @@ const Contact = () => {
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                       placeholder="Your Name*"
-                      
                     ></input>{" "}
                   </label>
                   <label className="name-cnt">

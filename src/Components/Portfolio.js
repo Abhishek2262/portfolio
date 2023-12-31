@@ -98,6 +98,9 @@ const Portfolio = () => {
             <div className="box-1" onClick={() => display(2)}>
               <div className="bg-h1"><div className="heading1">Portfolio Website</div></div>{" "}
             </div>
+            <div className="box-1">
+              <div className="bg-h1"><div className="heading1">Library Management System</div></div>{" "}
+            </div>
           </div>
         </div>
       </div>

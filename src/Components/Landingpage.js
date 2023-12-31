@@ -20,12 +20,11 @@ export default function LandingPage() {
           <Navbar />
         </div>
 
-        <div className="hero-section" >
+        <div className="hero-section">
           <div className="left-side">
-            <img className="img1"   src={gp2} alt="ABhishek" />
+            <img className="img1" src={gp2} alt="ABhishek" />
           </div>
           <div className="right-side">
-        
             <h3>HI THERE !</h3>
             <div>
               <MovingText
@@ -43,8 +42,8 @@ export default function LandingPage() {
             <p className="l2">
               I'm a student of Mathematics and Computing, Software and Web
               Developer based in Jharkhand, Dhanbad. I strives to build
-              immersive and beautiful web applications through carefully crafted 
-              code and user-centric design. 
+              immersive and beautiful web applications through carefully crafted
+              code and user-centric design.
             </p>
             <div className="btn">
               <button className="btn1" onClick={goToPortfolio}>
@@ -56,8 +55,6 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-
-        
       </div>
     </>
   );

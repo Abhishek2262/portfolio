@@ -8,38 +8,29 @@ import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import Navbar from "./Navbar";
 import { CiMail } from "react-icons/ci";
 import { FiInstagram } from "react-icons/fi";
-import axios from 'axios';
-
+import axios from "axios";
 
 import "./Contact.css";
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
-    const [email, setEmail] = useState("");
-    const [name, setName] = useState("");
-    const [message, setMessage] = useState("");
-
-
-
-    const submitForm = async () => {
-
-        if(name.trim().length > 0 && message.trim().length > 0){
-            axios.post('https://formspree.io/f/xgejonqj', {name, email, message})
-            .then((data) => {
-                alert('Message sent successfully!')
-
-            })
-            .catch((err) => {
-            alert('error occurred: ', err);
-            });
-        }else{
-            alert('Enter valid name and message!')
-
-        }
-
-    } 
- 
-    
+  const submitForm = async () => {
+    if (name.trim().length > 0 && message.trim().length > 0) {
+      axios
+        .post("https://formspree.io/f/xgejonqj", { name, email, message })
+        .then((data) => {
+          alert("Message sent successfully!");
+        })
+        .catch((err) => {
+          alert("error occurred: ", err);
+        });
+    } else {
+      alert("Enter valid name and message!");
+    }
+  };
 
   return (
     <>
@@ -55,7 +46,7 @@ const Contact = () => {
           <div className="subhead">
             <div className="linecnt"></div>
             <p>
-             I.m always open to discussing Web Development & Data Structures.
+              I.m always open to discussing Web Development & Data Structures.
             </p>
             <div className="linecnt2"></div>
           </div>
@@ -116,7 +107,10 @@ const Contact = () => {
               </p>
               <form
                 className="input-cntr"
-                onSubmit={(E) => {E.preventDefault(); submitForm();}}
+                onSubmit={(E) => {
+                  E.preventDefault();
+                  submitForm();
+                }}
                 // action="https://formspree.io/f/xgejonqj"
                 // method="POST"
               >
@@ -124,7 +118,7 @@ const Contact = () => {
                   <label className="name-cnt">
                     <BsPersonFill />
                     <input
-                    required
+                      required
                       className="input-box"
                       name="name"
                       value={name}
@@ -135,8 +129,8 @@ const Contact = () => {
                   <label className="name-cnt">
                     <CiMail />
                     <input
-                        required
-                        value={email}
+                      required
+                      value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       className="input-box"
                       name="email"
@@ -149,7 +143,7 @@ const Contact = () => {
                   <textarea
                     required
                     value={message}
-                      onChange={(e) => setMessage(e.target.value)}
+                    onChange={(e) => setMessage(e.target.value)}
                     placeholder="Your Message*"
                     className="input-box"
                     name="message"
@@ -157,7 +151,7 @@ const Contact = () => {
                   ></textarea>
                 </label>
 
-                <button className="btn-cnt"type="submit" >
+                <button className="btn-cnt" type="submit">
                   <BsSend /> SEND MESSAGE
                 </button>
               </form>

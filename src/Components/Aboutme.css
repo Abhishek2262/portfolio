@@ -20,7 +20,7 @@
 }
 .hr3{
     background-color: rgb(255, 180, 0);
-    width: 70vw;
+    width: 100%;
     margin-top: 2rem;
     margin-right: 20rem;
     height: 0.004rem;
@@ -44,7 +44,9 @@
     color: whitesmoke;
     align-items: center; 
     justify-content: center;
+    
     width: 100%;
+   
 }
 .abt2{
     display: flex;
@@ -112,14 +114,17 @@
 .resumecntr{
    display: flex;
    flex-direction: row;
-   margin-left: 5rem;
-   width: 87rem; 
+   align-items: center;
+   justify-content: center;
+   /* margin-left: 5rem; */
+   width: 87%; 
    height: 36rem;
+   /* background-color: yellow; */
 }
 .expcntr{
     width: 50%;
     
-    padding-left: 0.5rem;
+   
     
 
 }
@@ -170,6 +175,7 @@
 .gigcntr{
     display: flex;
     width: 20rem;
+    gap: 1rem;
 }
 .gig1{
     display: flex;

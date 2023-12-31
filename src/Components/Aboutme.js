@@ -60,7 +60,7 @@ export default function Abhoutme() {
             </div>
           </div>
 
-          <div className="hr3"></div>
+          <div style={{width:"90%", padding:"1%"}}><div className="hr3"></div></div>
 
           <div className="resumecntr">
             <div className="expcntr">
@@ -105,7 +105,7 @@ export default function Abhoutme() {
                 </div>
 
                 <EducationItem
-                  startyear={"07/2019"}
+                  startyear={"07/2019"} 
                   endyear={"Present"}
                   course={"Mathematics & Computing"}
                   institute={"Birla Institute Of Technology "}

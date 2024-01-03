@@ -4,6 +4,7 @@ import "./Portfolio.css";
 import rtr from "./photos/rtr.png";
 import gp1 from "./photos/gp1.png";
 import gp2 from "./photos/gp2.png";
+import gp3 from "./photos/Group 63.png";
 
 import PortfolioItem from "./PortfolioItem/PortfolioItem";
 
@@ -44,7 +45,7 @@ const Portfolio = () => {
     },
     {
       title : "Library Management System ",
-      image: gp1,
+      image: gp3,
       project: "Website",
       duration : " 28- Dec - 2023 -  Working....",
       description : "This Project is under construction, coming-soon",

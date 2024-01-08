@@ -39,7 +39,7 @@ export default function Abhoutme() {
               </div>
               <div className="p1">
                 <div className="int2">Language : English , Hindi</div>
-                <div className="int2">Phonr number : 6203321160</div>
+                <div className="int2">Phone number : 6203321160</div>
                 <div className="int2">Email : abhishekpandey1480@gmail.com</div>
                 <div className="int2">
                   Github : https://github.com/Abhishek2262

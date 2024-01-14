@@ -167,6 +167,12 @@ export default function Abhoutme() {
               <SkillItem name={"DBMS"} progress={55} />
               <SkillItem name={"Python"} progress={70} />
               <SkillItem name={"OOPs"} progress={75} />
+              <SkillItem name={"Docker"} progress={70}/>
+              <SkillItem name={"Node JS"} progress={65}/>
+              <SkillItem name={"Express"} progress={50}/>
+              <SkillItem name={"Linux (ubuntu)"} progress={70}/>
+              <SkillItem name={"Git & Github"} progress={70}/>
+              
               {/* </div> */}
             </div>
           </div>

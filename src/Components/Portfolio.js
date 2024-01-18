@@ -44,13 +44,25 @@ const Portfolio = () => {
       github: "https://github.com/Abhishek2262/portfolio",
     },
     {
-      title : "Library Management System ",
+      title: "Library Management System ",
       image: gp3,
       project: "Website",
-      duration : " 28- Dec - 2023 -  Working....",
-      description : "This Project is under construction, coming-soon",
+      duration: " 28- Dec - 2023 -  Working....",
+      description: "This Project is under construction, coming-soon",
       tech: "ReactJs, CSS, HTML, JavaScript, Node.JS, Express.",
-      github : "https://github.com/Abhishek2262/Libarary-management--System--Frontend",
+      github:
+        "https://github.com/Abhishek2262/Libarary-management--System--Frontend",
+    },
+    {
+      title: " Fix-Health Assignment :- Landing Page ",
+      image: gp3,
+      project: "Landing Page Only",
+      duration: " 17-Jan-2024 - 18-Jan-2024",
+      description:
+        "This Project is assign by Fix-health, Here I build new landing page in dark mode, with An attractive hero image,Consultation booking form, Testimonials,The booking form should have these steps: 1 step- Name + Phone number, 2 step-Age + City + Company, 3 step Chief complaints, 4 step- Any previous experience with physiotherapy, 5 set- Any previous experience with physiotherapy  ",
+      tech: "ReactJs, CSS, HTML, JavaScript, Node.JS, Express.",
+      github:
+        "https://github.com/Abhishek2262/Fix-health-Assignment",
     },
   ];
   // const myStyle ={
@@ -113,7 +125,16 @@ const Portfolio = () => {
             </div>
             <div className="box-1" onClick={() => display(3)}>
               <div className="bg-h1">
-                <div className="heading1">Library Management System <br></br> <br></br>( Coming soon)</div>
+                <div className="heading1">
+                  Library Management System <br></br> <br></br>( Coming soon)
+                </div>
+              </div>{" "}
+            </div>
+            <div className="box-1" onClick={() => display(4)}>
+              <div className="bg-h1">
+                <div className="heading1">
+                  Assignment of Fixhealth :- Landing Page<br></br>
+                </div>
               </div>{" "}
             </div>
           </div>

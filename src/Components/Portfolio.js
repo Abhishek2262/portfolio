@@ -5,6 +5,7 @@ import rtr from "./photos/rtr.png";
 import gp1 from "./photos/gp1.png";
 import gp2 from "./photos/gp2.png";
 import gp3 from "./photos/Group 63.png";
+import gp4 from "./photos/Desktop - 14.png";
 
 import PortfolioItem from "./PortfolioItem/PortfolioItem";
 
@@ -55,7 +56,7 @@ const Portfolio = () => {
     },
     {
       title: " Fix-Health Assignment :- Landing Page ",
-      image: gp3,
+      image: gp4,
       project: "Landing Page Only",
       duration: " 17-Jan-2024 - 18-Jan-2024",
       description:

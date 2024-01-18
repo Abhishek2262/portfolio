@@ -1,6 +1,6 @@
 import React from "react";
 import "./PortfolioItem.css";
-import "../Portfolio.css";
+// import "../Portfolio.css";
 import { RxCross2 } from "react-icons/rx";
 
 const PortfolioItem = (props) => {

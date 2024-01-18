@@ -16,7 +16,7 @@
 }
 
 .left{
-    min-width: 60vw;
+    min-width: 55vw;
     background-color: rgba(0,0,0,0.6);
 
 }
@@ -60,7 +60,11 @@ and (max-device-width:780px){
     display: none;
    }
    .image_container{
-    width: 100%;
+    width: 100%
+
+   }
+   .portfolio-rtr{
+   width: 90%;
    }
    .close_btn{
     

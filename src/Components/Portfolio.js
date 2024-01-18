@@ -65,15 +65,7 @@ const Portfolio = () => {
         "https://github.com/Abhishek2262/Fix-health-Assignment",
     },
   ];
-  // const myStyle ={
-  //   backgroundImage : `url(${rtr})`,
-  //    backgroundSize: "cover",
 
-  // };
-  // const myStyle1 ={
-  //   backgroundImage: `url(${gp1})`,
-  //    backgroundSize: "cover",
-  // };
 
   function display(idx) {
     setisItemDisplay({ show: true, index: idx });

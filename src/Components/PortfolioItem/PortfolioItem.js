@@ -13,7 +13,7 @@ const PortfolioItem = (props) => {
           props.setisItemDisplay(false);
         }}
       ></div>
-      <div className="right">
+      <div className="right"> 
         <RxCross2
           className="close_btn"
           onClick={() => {

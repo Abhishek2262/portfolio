@@ -6,6 +6,7 @@ import gp1 from "./photos/gp1.png";
 import gp2 from "./photos/gp2.png";
 import gp3 from "./photos/Group 63.png";
 import gp4 from "./photos/Desktop - 14.png";
+import gp5 from "./photos/gp5.jpg";
 
 import PortfolioItem from "./PortfolioItem/PortfolioItem";
 
@@ -62,22 +63,19 @@ const Portfolio = () => {
       description:
         "This Project is assign by Fix-health, Here I build new landing page in dark mode, with An attractive hero image,Consultation booking form, Testimonials,The booking form should have these steps: 1 step- Name + Phone number, 2 step-Age + City + Company, 3 step Chief complaints, 4 step- Any previous experience with physiotherapy, 5 set- Any previous experience with physiotherapy  ",
       tech: "ReactJs, CSS, HTML, JavaScript, Node.JS, Express.",
-      github:
-        "https://github.com/Abhishek2262/Fix-health-Assignment",
+      github: "https://github.com/Abhishek2262/Fix-health-Assignment",
     },
-     {
+    {
       title: " Ente Assignment :- Image Gallery ",
-      image: gp4,
+      image: gp5,
       project: "Show case memes",
       duration: " 29-Jan-2024 - 31-Jan-2024",
       description:
         "This Project is assigned by Ente to create a cool image gallery page using Next.js. The idea is to make a good-looking gallery that shows memes by getting data from a given API. For building the gallery, I've used the PhotoSwipe npm package library. And to make it even better, I've added a feature that (infinity scrolling) lets you keep scrolling to see more images or content without any interruptions.  ",
       tech: "Next js, CSS, tailwind css, photoswipe library",
-      github:
-        "https://github.com/Abhishek2262/Ente-Project",
+      github: "https://github.com/Abhishek2262/Ente-Project",
     },
   ];
-
 
   function display(idx) {
     setisItemDisplay({ show: true, index: idx });
@@ -141,7 +139,7 @@ const Portfolio = () => {
                 </div>
               </div>{" "}
             </div>
-             <div className="box-1" onClick={() => display(5)}>
+            <div className="box-1" onClick={() => display(5)}>
               <div className="bg-h1">
                 <div className="heading1">
                   Assignment Ente <br></br>

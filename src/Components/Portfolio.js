@@ -65,6 +65,17 @@ const Portfolio = () => {
       github:
         "https://github.com/Abhishek2262/Fix-health-Assignment",
     },
+     {
+      title: " Ente Assignment :- Image Gallery ",
+      image: gp4,
+      project: "Show case memes",
+      duration: " 29-Jan-2024 - 31-Jan-2024",
+      description:
+        "This Project is assigned by Ente to create a cool image gallery page using Next.js. The idea is to make a good-looking gallery that shows memes by getting data from a given API. For building the gallery, I've used the PhotoSwipe npm package library. And to make it even better, I've added a feature that (infinity scrolling) lets you keep scrolling to see more images or content without any interruptions.  ",
+      tech: "Next js, CSS, tailwind css, photoswipe library",
+      github:
+        "https://github.com/Abhishek2262/Ente-Project",
+    },
   ];
 
 
@@ -127,6 +138,13 @@ const Portfolio = () => {
               <div className="bg-h1">
                 <div className="heading1">
                   Assignment of Fixhealth :- Landing Page<br></br>
+                </div>
+              </div>{" "}
+            </div>
+             <div className="box-1" onClick={() => display(5)}>
+              <div className="bg-h1">
+                <div className="heading1">
+                  Assignment Ente <br></br>
                 </div>
               </div>{" "}
             </div>
